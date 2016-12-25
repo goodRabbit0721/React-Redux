@@ -1,0 +1,14 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "/static/bundle.js",
+        "destination": "/static/bundle.js"
+      }
+    ]
+  }
+}
